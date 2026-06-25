@@ -1,3 +1,4 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu"
+    "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+    "postCreateCommand": "sudo apt update && sudo apt install -y libpqxx-dev"
 }
